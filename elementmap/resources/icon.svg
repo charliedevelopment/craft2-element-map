@@ -1,15 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 	<defs>
 		<style>
-			.cls-1 {
+			.red {
 				fill: #da513d;
+			}
+
+			.branch {
+				animation: fade 5000ms infinite ease;
+			}
+
+			.branch.b-1 {animation-delay: 0ms;}
+			.branch.b-2 {animation-delay: 250ms;}
+			.branch.b-3 {animation-delay: 500ms;}
+			.branch.b-4 {animation-delay: 750ms;}
+
+			@keyframes fade {
+				30% {
+					opacity: 1;
+				}
+				40% {
+					opacity: 0;
+				}
+				70% {
+					opacity: 0;
+				}
+				80% {
+					opacity: 1;
+				}
 			}
 		</style>
 	</defs>
-	<path class="cls-1" d="M15,6.4731l-6-2L2.5,6.64V19.6934L9,17.5273l6,2,6.5-2.167V4.3062Zm-5.5-.78,5,1.6666V18.306l-5-1.6666ZM3.5,7.36l5-1.6668V16.6394l-5,1.6672Zm17,9.2793-5,1.6664V7.36l5-1.6664Z"/>
-	<rect class="cls-1" x="11.5" y="10" width="1" height="1"/>
-	<rect class="cls-1" x="4.5" y="9" width="1" height="1"/>
-	<rect class="cls-1" x="6.5" y="13" width="1" height="1"/>
-	<rect class="cls-1" x="16.5" y="14" width="1" height="1"/>
-	<rect class="cls-1" x="18.5" y="9" width="1" height="1"/>
+	<path class="red" d="M18.207,18.5H16.793L15.5,17.207V15.793L16.793,14.5H18.207L19.5,15.793V17.207Zm-1-1h.5859l.707-.707V16.207l-.707-.707H17.207l-.707.707v.5859Z"/>
+	<path class="red" d="M6.207,20.5H4.793L3.5,19.207V17.793L4.793,16.5H6.207L7.5,17.793V19.207Zm-1-1H5.793l.707-.707V18.207L5.793,17.5H5.207l-.707.707v.5859Z"/>
+	<path class="red" d="M13.207,13.5H11.793L10.5,12.207V10.793L11.793,9.5H13.207L14.5,10.793V12.207Zm-1-1h.5859l.707-.707V11.207l-.707-.707H12.207l-.707.707v.5859Z"/>
+	<path class="red" d="M19.207,7.5H17.793L16.5,6.207V4.793L17.793,3.5H19.207L20.5,4.793V6.207Zm-1-1h.5859l.707-.707V5.207L18.793,4.5H18.207l-.707.707V5.793Z"/>
+	<path class="red" d="M6.207,6.5H4.793L3.5,5.207V3.793L4.793,2.5H6.207L7.5,3.793V5.207Zm-1-1H5.793L6.5,4.793V4.207L5.793,3.5H5.207L4.5,4.207V4.793Z"/>
+	<rect class="red branch b-1" x="8.5001" y="4.6716" width="0.9999" height="6.6567" transform="translate(-3.0208 8.7071) rotate(-45)"/>
+	<rect class="red branch b-2" x="12.8787" y="8.0001" width="5.2425" height="0.9999" transform="translate(-1.4706 13.4497) rotate(-45)"/>
+	<rect class="red branch b-3" x="14.5001" y="12.0858" width="0.9999" height="3.8283" transform="translate(-5.5061 14.7071) rotate(-45)"/>
+	<rect class="red branch b-4" x="5.6716" y="14.5001" width="6.6567" height="0.9999" transform="translate(-7.9706 10.7574) rotate(-45)"/>
 </svg>
