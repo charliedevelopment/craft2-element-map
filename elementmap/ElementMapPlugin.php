@@ -46,6 +46,6 @@ class ElementMapPlugin extends BasePlugin {
 
 	public function getReleaseFeedUrl()
 	{
-		return 'https://raw.githubusercontent.com/charliedevelopment/Element-Map/master/release.json';
+		return 'https://raw.githubusercontent.com/charliedevelopment/Craft2-Element-Map/master/release.json';
 	}	
 }
