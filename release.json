@@ -7,5 +7,15 @@
             "# Initial Release",
             "[Added] SVG Icon"
         ]
+    },
+    {
+        "version": "1.0.1",
+        "downloadUrl": "https://github.com/charliedevelopment/Element-Map/archive/master.zip?1.0.0",
+        "date": "2017-12-05T23:12:08+00:00",
+        "notes": [
+            "[Added] Documentation Link",
+            "[Fixed] Broken feed URL",
+            "[Improved] Schema versioning so no more perceived DB updates"
+        ]
     }
 ]

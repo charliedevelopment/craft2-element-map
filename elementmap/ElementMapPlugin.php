@@ -15,9 +15,14 @@ class ElementMapPlugin extends BasePlugin {
 	}
 
 	public function getVersion() {
+		return '1.0.1';
+	}
+	
+	public function getSchemaVersion()
+	{
 		return '1.0.0';
 	}
-
+	
 	public function getName() {
 		return Craft::t('Element Map');
 	}
@@ -34,8 +39,13 @@ class ElementMapPlugin extends BasePlugin {
 		return 'http://charliedev.com/';
 	}
 	
+	public function getDocumentationUrl()
+	{
+		return 'https://github.com/charliedevelopment/Craft2-Element-Map/blob/master/README.md';
+	}
+
 	public function getReleaseFeedUrl()
 	{
-		return 'https://raw.githubusercontent.com/charliedevelopment/Element-Map/master/release.json'
+		return 'https://raw.githubusercontent.com/charliedevelopment/Element-Map/master/release.json';
 	}	
 }
